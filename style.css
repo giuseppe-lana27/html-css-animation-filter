@@ -7,7 +7,6 @@
 .ex-1-square:hover{
   background-color: red;
 }
-
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -40,10 +39,31 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: 2s;
+}
+.ex-5-square:hover{
+  transform: scale(1.5);
+}
+.ex-5-square:active{
+  transform: scale(0.5);
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    transition: 2s;
 }
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
+.ex-7-img:hover{
+  transition: 1s;
+  filter: grayscale(1) sepia(0.2);
+}
+.ex-8-img:hover{
+  border-radius: 20px;
+  filter: grayscale(0.3) saturate(0.3);
+}
+
+
 
 .ex-9-img {
     margin: 50px 100px;
