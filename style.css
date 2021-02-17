@@ -87,14 +87,24 @@
 }
 .ex-11-icon {
     font-size: 60px;
-
+}
+.ex-11-icon:hover{
+  animation-name: littlespin;
+  animation-duration: 6s;
+  animation-duration: linear;
 }
 
-
-
-
-
-
+@keyframes littlespin {
+  0%{
+    transform: rotate(0);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
 
 .ex-12-button, .ex-13-button {
     position: relative;
